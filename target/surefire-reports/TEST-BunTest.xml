@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="BunTest" time="0" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="BunTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-LTS"/>
@@ -65,14 +65,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="BunTest" name="checkBunGetPrice[0]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetName[0]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetPrice[1]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetName[1]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetPrice[2]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetName[2]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetPrice[3]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetName[3]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetPrice[4]" time="0"/>
-  <testcase classname="BunTest" name="checkBunGetName[4]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetPrice[Стоимость булочки. Тестовые данные: Наименование: Корочка бородинского; Цена: 100 ]" time="0.005"/>
+  <testcase classname="BunTest" name="checkBunGetName[Стоимость булочки. Тестовые данные: Наименование: Корочка бородинского; Цена: 100 ]" time="0.001"/>
+  <testcase classname="BunTest" name="checkBunGetPrice[Стоимость булочки. Тестовые данные: Наименование: Очень прекрасный, свежайший, хрустящий багета кусок; Цена: 0 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetName[Стоимость булочки. Тестовые данные: Наименование: Очень прекрасный, свежайший, хрустящий багета кусок; Цена: 0 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetPrice[Стоимость булочки. Тестовые данные: Наименование: ; Цена: 0 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetName[Стоимость булочки. Тестовые данные: Наименование: ; Цена: 0 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetPrice[Стоимость булочки. Тестовые данные: Наименование: 45689745 4589067 45-06984560; Цена: 852,687 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetName[Стоимость булочки. Тестовые данные: Наименование: 45689745 4589067 45-06984560; Цена: 852,687 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetPrice[Стоимость булочки. Тестовые данные: Наименование: null; Цена: -99 999 ]" time="0"/>
+  <testcase classname="BunTest" name="checkBunGetName[Стоимость булочки. Тестовые данные: Наименование: null; Цена: -99 999 ]" time="0"/>
 </testsuite>

@@ -3,7 +3,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import praktikum.Bun;
 
 @RunWith(Parameterized.class)
@@ -17,7 +16,7 @@ public class BunTest {
         this.price = price;
     }
 
-    @Parameterized.Parameters()
+    @Parameterized.Parameters(name = "Стоимость булочки. Тестовые данные: Наименование: {0}; Цена: {1} ")
     public static Object[][] getData() {
         return new Object[][]{
                 {"Корочка бородинского", 100},
